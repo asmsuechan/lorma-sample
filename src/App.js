@@ -1,31 +1,31 @@
 import React, { useState } from 'react';
-import Lorma, { getGeohash } from 'lorma_js';
+import Rowma, { getGeohash } from 'rowma_js';
 
 import _ from 'lodash';
 
 function App() {
-  const [lorma, setLorma] = useState(null);
+  const [rowma, setRowma] = useState(null);
   const [connections, setConnections] = useState([]);
   const [connectionUuid, setConnectionUuid] = useState(null);
   const [commands, setCommands] = useState([]);
   const [command, setCommand] = useState(null);
 
   const handleClick = () => {
-    if (!lorma) return
-    lorma.currentConnectionList().then(res => {
+    if (!rowma) return
+    rowma.currentConnectionList().then(res => {
       setConnections(res.data)
     })
   }
 
   const handleClick2 = () => {
-    if (!lorma) return
-    lorma.runLaunch(connectionUuid, command)
+    if (!rowma) return
+    rowma.runLaunch(connectionUuid, command)
   }
 
   const handleClick3 = async () => {
     const geohash = await getGeohash();
-    const lorma = new Lorma(geohash);
-    setLorma(lorma)
+    const rowma = new Rowma(geohash);
+    setRowma(rowma)
   }
 
   const handleConnectionChange = (event) => {
