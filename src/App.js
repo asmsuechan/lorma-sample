@@ -20,8 +20,9 @@ function App() {
 
   const handleClick = async () => {
     const geohash = await getGeohash();
-    const rowma = new Rowma(geohash, { baseURL: 'http://192.168.10.79' });
-    //const rowma = new Rowma(geohash, { baseURL: 'http://18.176.1.219' });
+    const rowma = new Rowma(geohash, { baseURL: 'http://localhost' });
+    // const rowma = new Rowma(geohash, { baseURL: 'http://192.168.10.79' });
+    // const rowma = new Rowma(geohash, { baseURL: 'http://18.176.1.219' });
     setRowma(rowma)
 
     if (!rowma) return
@@ -30,9 +31,10 @@ function App() {
     })
   }
 
-  const handleClick2 = () => {
+  const handleClick2 = async () => {
     if (!rowma) return
-    rowma.runLaunch(socket, connectionUuid, command)
+    const res = await rowma.runLaunch(socket, connectionUuid, command)
+    console.log('Response:', res)
   }
 
   const handleClick3 = () => {
@@ -56,12 +58,17 @@ function App() {
     setCommand(event.target.value)
   }
 
-  const handleSubscribe = (event) => {
-    rowma.subscribeTopic(socket, connectionUuid, "/initialpose")
+  const handleSubscribe = async (event) => {
+    const res = await rowma.subscribeTopic(socket, connectionUuid, "/image_raw")
+    console.log('Response: ', res)
+    socket.on('topic_to_device', (event) => {
+      console.log("event: ", event);
+    });
   }
 
-  const handleKillNodes = (event) => {
-    rowma.killNodes(socket, connectionUuid, [rosnode])
+  const handleKillNodes = async (event) => {
+    const res = await rowma.killNodes(socket, connectionUuid, [rosnode])
+    console.log('Response: ', res)
   }
 
   const handleNodeChange = (event) => {
@@ -81,12 +88,6 @@ function App() {
 
   const handlePublishTopic =  (msg) => {
     if (!rowma) return
-    //const msg =  {
-    //  "op": "publish",
-    //  "topic": "/joy",
-    //  "msg": {
-    //  }
-    //}
     rowma.publishTopic(socket, connectionUuid, msg)
   }
 
