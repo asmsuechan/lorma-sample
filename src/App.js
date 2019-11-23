@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Rowma, { getGeohash } from 'rowma_js';
+import Rowma from 'rowma_js';
 import ReactNipple from 'react-nipple';
 import 'react-nipple/lib/styles.css';
 
@@ -19,8 +19,7 @@ function App() {
   const [rosrunCommand, setRosrunCommand] = useState(null);
 
   const handleClick = async () => {
-    const geohash = await getGeohash();
-    const rowma = new Rowma(geohash, { baseURL: 'http://localhost' });
+    const rowma = new Rowma({ baseURL: 'http://localhost' });
     // const rowma = new Rowma(geohash, { baseURL: 'http://192.168.10.79' });
     // const rowma = new Rowma(geohash, { baseURL: 'http://18.176.1.219' });
     setRowma(rowma)

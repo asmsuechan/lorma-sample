@@ -8655,8 +8655,10 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-"rowma_js@file:../rowma_js":
-  version "1.0.1"
+rowma_js@^1.0.2:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/rowma_js/-/rowma_js-1.0.3.tgz#5bd0eb8239dba6b146d1eaff58816f44299977f7"
+  integrity sha512-bzcAvM3fbS/lpKucY4xsgaXuj0s9Z4gIt+egWOknaznkaznrdheCpgj2ALgx+/I4iK+B/zZVW46d4sqpZd9YQg==
   dependencies:
     axios "^0.19.0"
     ngeohash "^0.6.3"
