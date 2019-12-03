@@ -20,7 +20,7 @@ function App() {
 
   const handleClick = async () => {
     const rowma = new Rowma({ baseURL: 'http://localhost' });
-    // const rowma = new Rowma(geohash, { baseURL: 'http://192.168.10.79' });
+    // const rowma = new Rowma({ baseURL: 'http://192.168.10.79' });
     // const rowma = new Rowma(geohash, { baseURL: 'http://18.176.1.219' });
     setRowma(rowma)
 
