@@ -6531,11 +6531,6 @@ next-tick@^1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-ngeohash@^0.6.3:
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/ngeohash/-/ngeohash-0.6.3.tgz#10b1e80be5488262ec95c56cf2dbb6c45fbdf245"
-  integrity sha512-kltF0cOxgx1AbmVzKxYZaoB0aj7mOxZeHaerEtQV0YaqnkXNq26WWqMmJ6lTqShYxVRWZ/mwvvTrNeOwdslWiw==
-
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
@@ -8655,13 +8650,12 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rowma_js@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/rowma_js/-/rowma_js-1.0.3.tgz#5bd0eb8239dba6b146d1eaff58816f44299977f7"
-  integrity sha512-bzcAvM3fbS/lpKucY4xsgaXuj0s9Z4gIt+egWOknaznkaznrdheCpgj2ALgx+/I4iK+B/zZVW46d4sqpZd9YQg==
+rowma_js@^1.0.3:
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/rowma_js/-/rowma_js-1.1.8.tgz#3e9b7092cc8c75e15d08043c841eecfb7e626dfa"
+  integrity sha512-XYDENcMuB5enO3Gh4OEMQiA3FMbezZfagnl3craYk+LIc0m+socpvH6kKbaHAsi0LT9+BMIIHIO801Me0eUh8g==
   dependencies:
     axios "^0.19.0"
-    ngeohash "^0.6.3"
     socket.io-client "^2.2.0"
     uuid "^3.3.3"
 
@@ -10051,9 +10045,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3, whatwg-encoding@^1.0.5:
   version "1.0.5"
