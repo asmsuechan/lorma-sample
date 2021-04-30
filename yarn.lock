@@ -4095,9 +4095,9 @@ fb-watchman@^2.0.0:
     bser "^2.0.0"
 
 figgy-pudding@^3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.1.tgz#862470112901c727a0e495a80744bd5baa1d6790"
-  integrity sha512-vNKxJHTEKNThjfrdJwHc7brvM6eVevuO5nTj6ez8ZQ1qbXTvGthucRF7S4vf2cr71QVnT70V34v0S1DyQsti0w==
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/figgy-pudding/-/figgy-pudding-3.5.2.tgz#b4eee8148abb01dcf1d1ac34367d59e12fa61d6e"
+  integrity sha512-0btnI/H8f2pavGMN8w40mlSKOfTK2SVJmBfBeVIj3kNw0swwgzyRq0d5TJVOwodFmtvpPeWPN/MCcfuWF0Ezbw==
 
 figures@^2.0.0:
   version "2.0.0"
@@ -6531,11 +6531,6 @@ next-tick@^1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-ngeohash@^0.6.3:
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/ngeohash/-/ngeohash-0.6.3.tgz#10b1e80be5488262ec95c56cf2dbb6c45fbdf245"
-  integrity sha512-kltF0cOxgx1AbmVzKxYZaoB0aj7mOxZeHaerEtQV0YaqnkXNq26WWqMmJ6lTqShYxVRWZ/mwvvTrNeOwdslWiw==
-
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
@@ -8655,13 +8650,12 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rowma_js@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/rowma_js/-/rowma_js-1.0.3.tgz#5bd0eb8239dba6b146d1eaff58816f44299977f7"
-  integrity sha512-bzcAvM3fbS/lpKucY4xsgaXuj0s9Z4gIt+egWOknaznkaznrdheCpgj2ALgx+/I4iK+B/zZVW46d4sqpZd9YQg==
+rowma_js@^1.0.3:
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/rowma_js/-/rowma_js-1.1.9.tgz#7f1164b7945f51609023ca56abb16584dabebda6"
+  integrity sha512-JMZmQis6xjbkALqHj5Q1O7MGn5nq7SI3+t53fLB7KNdGddXSNvGC2BM8mIqpM0ma65BGW3k4/F1YZWdZ94iKxg==
   dependencies:
     axios "^0.19.0"
-    ngeohash "^0.6.3"
     socket.io-client "^2.2.0"
     uuid "^3.3.3"
 
@@ -9170,9 +9164,9 @@ sshpk@^1.7.0:
     tweetnacl "~0.14.0"
 
 ssri@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.1.tgz#2a3c41b28dd45b62b63676ecb74001265ae9edd8"
-  integrity sha512-3Wge10hNcT1Kur4PDFwEieXSCMCJs/7WvSACcrMYrNp+b8kDL1/0wJch5Ni2WrtwEa2IO8OsVfeKIciKCDx/QA==
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/ssri/-/ssri-6.0.2.tgz#157939134f20464e7301ddba3e90ffa8f7728ac5"
+  integrity sha512-cepbSq/neFK7xB6A50KHN0xHDotYzq58wWCa5LeWqnPrHG8GzfEjO/4O8kpmcGW+oaxkvhEJCWgbgNk4/ZV93Q==
   dependencies:
     figgy-pudding "^3.5.1"
 
