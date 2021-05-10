@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "jpeg-js": "^0.3.6",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-nipple": "^1.0.1",
