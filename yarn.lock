@@ -6531,11 +6531,6 @@ next-tick@^1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-ngeohash@^0.6.3:
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/ngeohash/-/ngeohash-0.6.3.tgz#10b1e80be5488262ec95c56cf2dbb6c45fbdf245"
-  integrity sha512-kltF0cOxgx1AbmVzKxYZaoB0aj7mOxZeHaerEtQV0YaqnkXNq26WWqMmJ6lTqShYxVRWZ/mwvvTrNeOwdslWiw==
-
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
@@ -7143,9 +7138,9 @@ path-key@^2.0.0, path-key@^2.0.1:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-to-regexp@0.1.7:
   version "0.1.7"
@@ -8655,13 +8650,12 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rowma_js@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/rowma_js/-/rowma_js-1.0.3.tgz#5bd0eb8239dba6b146d1eaff58816f44299977f7"
-  integrity sha512-bzcAvM3fbS/lpKucY4xsgaXuj0s9Z4gIt+egWOknaznkaznrdheCpgj2ALgx+/I4iK+B/zZVW46d4sqpZd9YQg==
+rowma_js@^1.0.3:
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/rowma_js/-/rowma_js-1.1.9.tgz#7f1164b7945f51609023ca56abb16584dabebda6"
+  integrity sha512-JMZmQis6xjbkALqHj5Q1O7MGn5nq7SI3+t53fLB7KNdGddXSNvGC2BM8mIqpM0ma65BGW3k4/F1YZWdZ94iKxg==
   dependencies:
     axios "^0.19.0"
-    ngeohash "^0.6.3"
     socket.io-client "^2.2.0"
     uuid "^3.3.3"
 
